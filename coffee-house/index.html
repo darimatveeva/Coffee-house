@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/inter?styles=169530,29139,29134,29140,29141,29128" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Coffee house</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -16,7 +16,8 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <header class="header">
+    <header class="page-header">
+        <div class="container page-header-container">
         <a href="#" class="logo">
             <div class="logo1">
             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,68 +53,104 @@
             </div>                   
             </a>
         <nav class="header-nav">
-            <ul class="menu">
-                <li class="menu-item"><a class=menu-link href="#">Favorite coffee</a></li>
-                <li class="menu-item"><a class=menu-link href="#">About</a></li>
-                <li class="menu-item"><a class=menu-link href="#">Mobile app</a></li>
-                <li class="menu-item"><a class=menu-link href="#">Contact us</a></li>
+            <ul class="header-menu">
+                <li class="header-menu-item"><a class=header-menu-link href="#">Favorite coffee</a></li>
+                <li class="header-menu-item"><a class=header-menu-link href="#">About</a></li>
+                <li class="header-menu-item"><a class=header-menu-link href="#">Mobile app</a></li>
+                <li class="header-menu-item"><a class=header-menu-link href="#">Contact us</a></li>
             </ul>
         </nav>
-        <a class="menu-button" href="#">Menu</a>
+        <a class="menu-button" href="#">Menu
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.167 9.76667V11.6667C14.167 14.8883 11.5553 17.5 8.33366 17.5C5.112 17.5 2.50033 14.8883 2.50033 11.6667V9.76667C2.50033 9.4353 2.76896 9.16667 3.10033 9.16667H13.567C13.8984 9.16667 14.167 9.4353 14.167 9.76667Z" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.0003 7.50008C10.0003 6.66675 10.5956 5.83341 11.786 5.83341V5.83341C13.101 5.83341 14.167 4.76743 14.167 3.45246V2.91675" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.66634 7.5V7.08333C6.66634 5.70262 7.78563 4.58333 9.16634 4.58333V4.58333C10.0868 4.58333 10.833 3.83714 10.833 2.91667V2.5" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.333 9.16675H15.4163C16.5669 9.16675 17.4997 10.0995 17.4997 11.2501C17.4997 12.4007 16.5669 13.3334 15.4163 13.3334H14.1663" stroke="#403F3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+        </a>
+        </div>
     </header>
     <main class="main">
         <h1 class="h1"></h1>
         <section class="hero">
-            <h2 class="section-title offer offer-title">
-                Enjoy premium coffee at our charming cafe
-            </h2>
-            <p class="offer offer-text">
-                With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.
-                Menu
-            </p>
-            <a class="button-primary" href="#">Menu</a>
-            <img class="hero-image" src="pictures/img-hero.jpg" alt="" width="1360" height="644"/>
+            <div class="container">
+                <div class="enjoy-block">
+                        <div class="title-block">
+                        <h2 class="section-title offer offer-title">
+                            Enjoy <span class="colortext"> premium coffee at our charming cafe</span>
+                        </h2>
+                        </div>
+                        <div class="text-block">
+                        <p class="offer offer-text">
+                            With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.
+                        </p>
+                        </div>
+                        <div class="button-primary">
+                        <a class="button-link" href="#">Menu</a>
+                        </div>
+                </div>
+            </div>
         </section>
-        <section favorite-coffee>
-            <h2 class="section-title slide1-title" >Choose your favorite coffee</h2>
-            <article class="slide1">
-                <img class="slide1_img" src="pictures/coffee-slider-1.png" alt="Frappuccino" width="480" height="480">
-                </p class="slide1-name coffee-name">S’mores Frappuccino</p>
-                <p class="slide1-description coffee-description">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
-                <p class="slide1-price coffee-price">$5.50</p>
-            </article>
-            <article class="slide2">
-                <img class="slide2_img" src="pictures/coffee-slider-2.png" alt="Macchiato" width="480" height="480">
-                </p class="slide2_name coffee-name">Caramel Macchiato</p>
-                <p class="slide2_description coffee-description">Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under wheapped thick foam.</p>
-                <p class=" slide2-price coffee-price">$5.00</p>
-            </article>
-            <article class="slide3">
-                <img class="slide3-img" src="pictures/coffee-slider-3.png" alt="" width="480" height="480">
-                </p class="slide3-name coffee-name">Ice coffee</p>
-                <p class="slide3-description coffee-description">A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.</p>
-                <p class="slide3-price coffee-price">$4.50</p>
-            </article>
-            <button class="coffee-button coffee-button-prev" type="button">
-                <svg class="coffee-arrow-prev" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                    
-            </button>
-            <button class="coffee-button coffee-button-next" type="button">
-                <svg class="coffee-arrow-next" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    
-            </button>
+        <section Favorites-coffee>
+            <div class="container">
+                <div class="Favorites-coffee__container">
+                    <div class="Favorites-coffee_block">
+                        <h2 class="section-title slide-title">
+                            Choose your <span class="slide-title__colortext">favorite</span> coffee</h2>
+                        <article class="slide1">
+                            <div class="slide1__block">
+                                <img class="slide1_img" src="pictures/coffee-slider-1.png" alt="Frappuccino" width="480" height="480">
+                                <p class="coffee-name">S’mores Frappuccino</p>
+                                <p class="coffee-description">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                                <p class="coffee-price">$5.50</p>
+                            </div>
+                        </article>
+                        <article class="slide2">
+                            <div class="slide2__block">
+                                <img class="slide2_img" src="pictures/coffee-slider-2.png" alt="Macchiato" width="480" height="480">
+                                <p class="coffee-name">Caramel Macchiato</p>
+                                <p class="coffee-description">Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under wheapped thick foam.</p>
+                                <p class="coffee-price">$5.00</p>
+                            </div>
+                        </article>
+                        <article class="slide3">
+                            <div class="slide3__block">
+                                <img class="slide3-img" src="pictures/coffee-slider-3.png" alt="" width="480" height="480">
+                                <p class="coffee-name">Ice coffee</p>
+                                <p class="coffee-description">A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.</p>
+                                <p class="coffee-price">$4.50</p>
+                            </div>
+                        </article>
+                    </div>
+                        <button class="coffee-button coffee-button-prev" type="button">
+                            <svg class="coffee-arrow-prev" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                    
+                        </button>
+                        <button class="coffee-button coffee-button-next" type="button">
+                            <svg class="coffee-arrow-next" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </button>
+                        <div class="bars">
+                            <div class="bar-active"></div>
+                            <div class="bar-inactive1"></div>
+                            <div class="bar-inactive2"></div>
+                        </div>
+                </div>
+            </div>
         </section>
         <section class="about">
+            <div class="container">
             <h2 class="section-title about-title">Resource is the perfect and cozy place where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
             <img class="about-img about-img-girl" src="pictures/about-1.jpg" alt="Girl" width="660" height="590">
             <img class="about-img about-img-man" src="pictures/about-2.jpg" alt="Man" width="660" height="430">
             <img class="about-img about-img-cup" src="pictures/about-3.jpg" alt="Cup" width="660" height="430">
             <img class="about-img about-img-pair" src="pictures/about-4.jpg" alt="Pair" width="660" height="590">
+            </div>
         </section>
         <section class="mobile-app">
+            <div class="container">
             <h2 class="section-title mobile-app-title">Download our apps to start ordering</h2>
             <p class="mobile-app-description">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
             <ul class="mobile-app-list">
@@ -141,10 +178,12 @@
                 </li>
             </ul>
             <img class="mobile-app-img" src="pictures/mobile-screens.png" alt="" width="630" height="630">
+            </div>
         </section>
     </main> 
     <footer class="footer">
         <section class="contacts">
+            <div class="container">
             <div class="contacts-networks">
                 <h2 class="section-title contacts-title">Sip, Savor, Smile. It’s coffee time!</h2>
                 <ul class="contacts-list">
@@ -201,6 +240,7 @@
                         </svg>
                         Mon-Sat: 9:00 AM – 23:00 PM                    
                 </p>
+            </div>
             </div>
         </section>
     </footer>
