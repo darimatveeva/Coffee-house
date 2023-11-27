@@ -239,3 +239,315 @@ margin-bottom: 14px;
         column-gap: 12px;
         justify-content:center;
     }
+    .about-title {
+        padding: 0;
+        margin: 0;
+        width: 1400px;
+        color: #403F3D;
+        font-size: 60px;
+        line-height: 125%;
+        margin-bottom: 40px;
+    }
+    .about__colortext {
+        color: #B0907A;
+        font-style: italic;
+        font-size: 60px;
+        line-height: 125%;   
+    }
+    .about {
+        margin-top: 100px;
+        height: 1325px;
+    }
+    .about__pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about__img {
+        border-radius: 20px;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+    .about__pair {
+        margin-top: -120px;
+        overflow: hidden;
+        border-radius: 20px;
+        width: 660px;
+        height: 590px;
+        object-fit: cover;
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .about-img-pair {
+        width: 726px;
+        height: 726px;
+        transform: scale(1.0);
+        transition: transform 1s;
+    }
+    .about-img-pair:hover {
+        width: 726px;
+        height: 726px;
+        transform: scale(0.9);
+    }
+    .about__girl {
+        overflow: hidden;
+        border-radius: 20px;
+        width: 660px;
+        height: 590px;
+        object-fit: cover;
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .about-img-girl {
+        width: 726px;
+        height: 726px;
+        transform: scale(1.0);
+        transition: transform 1s;
+    }
+    .about-img-girl:hover {
+        width: 726px;
+        height: 726px;
+        transform: scale(0.9);
+        
+    }
+    .about__man {
+        overflow: hidden;
+        border-radius: 20px;
+        width: 660px;
+        height: 430px;
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .about-img-man {
+        width: 726px;
+        height: 726px;
+        transform: scale(1.0);
+        transition: transform 1s;
+    }
+    .about-img-man:hover {
+        width: 726px;
+        height: 726px;
+        transform: scale(0.9);
+        
+    }
+    .about__cup {
+
+        margin-top: 40px;
+        margin-left: -0.5px;
+        overflow: hidden;
+        border-radius: 20px;
+        width: 660px;
+        height: 430px;
+
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .about-img-cup {
+        width: 726px;
+        height: 726px;
+        transform: scale(1.0);
+        transition: transform 1s;
+    }
+    .about-img-cup:hover {
+        width: 726px;
+        height: 726px;
+        transform: scale(0.9);
+        
+    }
+    .mobile-app {
+        margin-top: 100px;
+        height: 630px;
+
+    }
+    .mobile-app__block {
+        display:flex;
+        justify-content:space-between;
+    }
+    .mobile-app__block1 {
+        width: 630px;
+        height: 630px;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        row-gap: 40px;
+    }
+    .mobile-app__block2 {
+        width: 630px;
+        height: 630px;
+    }
+    .mobile-app-title {
+        color:#403F3D;
+        font-size: 60px;
+        line-height: 125%;
+        width: 630px;
+        height: 150px;
+        margin: 0px;
+
+    }
+    .mobile-app-colortext {
+        color:#B0907A;
+        font-style: italic;
+        font-size: 60px;
+        line-height: 125%;
+    }
+    .mobile-app-description {
+        color:#403F3D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        width: 630px;
+        height: 48px;
+        margin: 0px;
+    }
+.mobile-app-list {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 420px;
+    height: 64px;
+    list-style-type: none;
+}
+.mobile-app-button {
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background-color: #E1D4C9;
+}
+.button__google_text {
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.button__app_text {
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.available {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.button-app-store {
+    padding: 12px 20px;
+    display: flex;
+    justify-content:flex-start;
+    column-gap: 8px;
+}
+.svg-app {
+    width: 36px;
+    height: 36px;
+}
+.available-app {
+    color:#403F3D;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.app-store {
+    color: #403F3D;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.button-google-play {
+    padding: 12px 20px;
+    display: flex;
+    justify-content:flex-start;
+    column-gap: 8px;
+}
+.available-google {
+    color:#403F3D;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.google-play {
+    color: #403F3D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: left;
+}
+.contacts {
+    margin-top: 100px;
+}
+.contacts__block {
+    width: 1160px;
+    height: 250px;
+    background-color: #665F55;
+    border-radius: 40px;
+    padding: 100px;
+    display:flex;
+    justify-content: space-between;
+    column-gap: 100px;
+}
+.contacts-title {
+    width: 530px;
+    height: 150px;
+    color: #E1D4C9;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    margin: 0px;
+}
+.contacts__colortext {
+    color: #B0907A;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 125%;
+}
+.contacts-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 12px;
+    padding-left: 0px;
+    margin: 0px;
+}
+.contacts__button {
+    background-color:#665F55;
+    border-radius: 100px;
+    border: 1px solid #C1B6AD;
+    width: 60px;
+    height: 60px;
+}
+.contacts-networks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 40px;
+}
+.contact-us {
+    color:#E1D4C9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    margin-top: 30px;
+}
+.contacts-info_text {
+    color:#E1D4C9;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0px;
+    padding: 0px;
+}
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    row-gap: 16px;
+}
