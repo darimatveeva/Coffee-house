@@ -427,7 +427,6 @@ margin-bottom: 14px;
         line-height: 150%;
         width: 630px;
         height: 48px;
-        margin: 0px;
     }
 .mobile-app-list {
     display: flex;
@@ -451,35 +450,28 @@ margin-bottom: 14px;
     flex-direction: column;
     text-align:left;
 }
-.button__app_text {
-    display: flex;
-    flex-direction: column;
-    text-align:left;
-}
 .available {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .button-app-store {
     padding: 12px 20px;
-    display: flex;
-    justify-content:flex-start;
-    column-gap: 8px;
 }
 .svg-app {
     width: 36px;
     height: 36px;
+    margin-left: -120px;
 }
 .available-app {
     color:#403F3D;
-    text-align: left;
+    text-align: center;
     font-size: 10px;
     font-weight: 600;
     line-height: 140%;
 }
 .app-store {
     color: #403F3D;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     font-weight: 600;
     line-height: 150%;
