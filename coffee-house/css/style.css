@@ -231,6 +231,7 @@ margin-bottom: 14px;
         position: absolute;
         top: 453px;
         right: 3px;
+        cursor: pointer;
     }
     .Favorites-coffee__container {
         position: relative;
