@@ -386,3 +386,6 @@ text-decoration: none;
 .number {
     padding-left: -5px;
 }
+html {
+    scroll-behavior: smooth;
+  }
