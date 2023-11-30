@@ -10,12 +10,15 @@ body {
     width: 1360px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .page-header {
     padding-top: 18px;
+    margin-bottom: 1px;
 }
 .page-header-container {
     display: flex;
@@ -128,12 +131,30 @@ margin-bottom: 14px;
     border-radius: 100px;
     background-color: #E1D4C9;
     align-items: center;
+    position: relative;
 }
 .button-link {
     color:#403F3D;
     font-size: 16px;
     line-height: 150%; 
     text-decoration: none;
+}
+.menu-change {
+    transition: 0.5s;  
+}
+.button-primary:hover .menu-change {
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.button-primary:hover .button-cup {
+    opacity: 1;
+    transition: 0.5s;
+}
+.button-cup {
+position: absolute;
+left: 120px;
+opacity: 0;
+transition: 0.5s;
 }
 .enjoy-block {
     background-image: url(../pictures/img-hero.jpg);
@@ -142,7 +163,7 @@ margin-bottom: 14px;
     height: 444px;
     padding: 100px;
     border-radius: 40px;
-    margin-bottom: 255px;
+    margin-bottom: 50px;
 
     display: flex;
     flex-direction: column;
@@ -187,12 +208,13 @@ margin-bottom: 14px;
     }
     .slide-title__colortext {
         color: #B0907A;
+        font-style: italic;
     }
     .coffee-name {
         color: #403F3D;
         font-size: 24px;
         line-height: 125%;
-        margin-top: 20px;
+        margin-top: 21px;
         margin-bottom: 0px;
     }
     .coffee-description {
@@ -221,7 +243,30 @@ margin-bottom: 14px;
         border-radius: 100px;
         background-color: #E1D4C9;
         align-items: center;
+        
     }
+    
+    .coffee-button:hover {
+        width: 60px;
+        height: 60px;
+        border: 0.5px solid #665F55;
+        border-radius: 100px;
+        background-color: #665F55;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .coffee-button:hover .arrow {
+        width: 60px;
+        height: 60px;
+        border: 0.5px solid #665F55;
+        border-radius: 100px;
+        background-color: #665F55;
+        align-items: center;
+        transition: 0.5s;
+        fill: none;
+        stroke: #E1D4C9;
+    }
+  
     .coffee-button-prev {
         position: absolute;
         top: 453px;
@@ -261,6 +306,7 @@ margin-bottom: 14px;
         display: flex;
         column-gap: 12px;
         justify-content:center;
+        padding-top: 2px;
     }
     .about-title {
         padding: 0;
@@ -280,6 +326,7 @@ margin-bottom: 14px;
     .about {
         margin-top: 100px;
         height: 1325px;
+        padding-top: 2px;
     }
     .about__pics {
         display: flex;
@@ -427,6 +474,8 @@ margin-bottom: 14px;
         line-height: 150%;
         width: 630px;
         height: 48px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 .mobile-app-list {
     display: flex;
@@ -445,7 +494,26 @@ margin-bottom: 14px;
     border: 1px solid #665F55;
     background-color: #E1D4C9;
 }
-.button__google_text {
+.mobile-app-button:hover {
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background-color: #665F55;
+    transition: 0.5s;
+}
+.mobile-app-button:hover .mobile-text {
+    color: #E1D4C9;
+    transition: 0.5s;
+}
+.mobile-app-button:hover .mobile-svg {
+    color: #E1D4C9;
+    transition: 0.5s;
+    fill: #E1D4C9;
+    stroke: #E1D4C9;
+
+}
+.button-google-play_text {
     display: flex;
     flex-direction: column;
     text-align:left;
@@ -453,23 +521,31 @@ margin-bottom: 14px;
 .available {
     margin-top: 0px;
     margin-bottom: 0px;
+    
 }
 .button-app-store {
     padding: 12px 20px;
+    display: flex;
+    justify-content:flex-start;
+    column-gap: 8px;
+}
+.button-app-store_text {
+    display: flex;
+    flex-direction: column;
+    text-align:left;
 }
 .svg-app {
     width: 36px;
     height: 36px;
-    margin-left: -120px;
 }
-.available-app {
+.button-app-store_text1 {
     color:#403F3D;
     text-align: center;
     font-size: 10px;
     font-weight: 600;
     line-height: 140%;
 }
-.app-store {
+.button-app-store_text2 {
     color: #403F3D;
     text-align: center;
     font-size: 16px;
@@ -482,14 +558,14 @@ margin-bottom: 14px;
     justify-content:flex-start;
     column-gap: 8px;
 }
-.available-google {
+.button-google-play_text1 {
     color:#403F3D;
     text-align: left;
     font-size: 10px;
     font-weight: 600;
     line-height: 140%;
 }
-.google-play {
+.button-google-play_text2 {
     color: #403F3D;
     font-size: 16px;
     font-weight: 600;
@@ -498,6 +574,12 @@ margin-bottom: 14px;
 }
 .contacts {
     margin-top: 100px;
+}
+.address {
+text-decoration: none;
+}
+.number {
+text-decoration: none;   
 }
 .contacts__block {
     width: 1160px;
@@ -529,7 +611,7 @@ margin-bottom: 14px;
     display: flex;
     list-style-type: none;
     column-gap: 12px;
-    padding-left: 0px;
+    padding: 0px;
     margin: 0px;
 }
 .contacts__button {
@@ -538,7 +620,24 @@ margin-bottom: 14px;
     border: 1px solid #C1B6AD;
     width: 60px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
+.contacts__button:hover {
+    background-color:#E1D4C9;
+    border-radius: 100px;
+    border: 1px solid #403F3D;
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+}
+.contacts__button:hover .contacts-svg {
+    transition: 0.5s;
+    fill: #E1D4C9;
+    stroke: #403F3D;
+}
+
 .contacts-networks {
     display: flex;
     flex-direction: column;
@@ -550,19 +649,45 @@ margin-bottom: 14px;
     font-size: 24px;
     font-weight: 600;
     line-height: 125%;
-    margin-top: 30px;
+    margin-top: 17px;
+    margin-bottom: 21px;
+    padding-left: 3px;
+
 }
 .contacts-info_text {
     color:#E1D4C9;
     font-size: 16px;
     font-weight: 600;
     line-height: 150%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px 0px 0px 3px;
+}
+.contacts-underline {
+    position: relative;
+}
+.contacts-underline:before {
+    content: '';
+    position:absolute;
+    width: 180px;
+    height: 3px;
+    background: #E1D4C9;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+.contacts-underline:hover {
+    color: #E1D4C9;
+}
+.contacts-underline:hover:before {
+    transform: scaleX(1);
+    background: #E1D4C9;
 }
 .contacts-info {
     display: flex;
     flex-direction: column;
     width: 530px;
     row-gap: 16px;
+    padding-top: 15px;
+}
+.number {
+    padding-left: -5px;
 }
