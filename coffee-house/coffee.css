@@ -311,6 +311,11 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items:center;
+    transition: 0.5s;
+}
+.contacts-svg-insta {
+    stroke: #E1D4C9;
+    fill: transparent;
 }
 .contacts__button:hover {
     background-color:#E1D4C9;
@@ -322,10 +327,12 @@ text-decoration: none;
 }
 .contacts__button:hover .contacts-svg {
     transition: 0.5s;
-    fill: #E1D4C9;
     stroke: #403F3D;
 }
-
+.contacts__button:hover .contacts-svg-insta {
+    transition: 0.5s;
+    stroke: #403F3D;
+}
 .contacts-networks {
     display: flex;
     flex-direction: column;
