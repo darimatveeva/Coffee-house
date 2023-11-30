@@ -82,6 +82,7 @@ body {
     margin: 0;
     padding-top: -5px;
     height: 24px;
+    cursor: default;
 }
 .logo {
     position: relative
