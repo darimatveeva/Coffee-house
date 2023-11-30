@@ -45,6 +45,7 @@ html {
 }
 .link-effect {
     position: relative;
+    transition: 0.5s;
 }
 .link-effect:before {
     content: '';
@@ -54,6 +55,7 @@ html {
     position: absolute;
     left: 0; bottom: -10px;
     transform: scaleX(0);
+    transition: 0.5s;
 }
 .link-effect:hover {
     color:#403F3D;
