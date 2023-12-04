@@ -210,6 +210,7 @@ body {
         width: 310px;
         border-radius: 40px;
         border: 1px solid #C1B6AD;
+        cursor: pointer;
     }
     .grid-block {
         width: 270px;
@@ -238,7 +239,7 @@ body {
         transition: transform 1s;
         object-fit: cover;
     }
-    .grid-pic:hover {
+    .grid-coffee:hover .grid-pic {
         height: 100%;
         width: 100%;
         transform: scale(1.0);
