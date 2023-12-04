@@ -79,8 +79,7 @@ body {
     font-size: 16px;
     line-height: 150%; 
     text-decoration: none;
-    margin: 0;
-    padding-top: -5px;
+    margin-top: -5px;
     height: 24px;
     cursor: default;
 }
@@ -111,6 +110,7 @@ body {
     line-height: 125%;
     height: 150px;
     margin-top: 0px;
+    margin-bottom: 40px;
 }
 .h1__colortext {
     color:#B0907A;
@@ -119,6 +119,158 @@ body {
     font-weight: 600;
     line-height: 125%;
 }
+    .section-btn {
+        border-radius: 100px;
+        border: 1px solid #C1B6AD;
+        background-color: #E1D4C9;
+        padding: 8px 16px 8px 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        cursor: pointer;
+        transition: 0.5s;
+          
+    }
+    .section-btn:hover {
+        border-radius: 100px;
+        border: 1px solid #665F55;
+        background-color: #665F55;
+        padding: 8px 16px 8px 8px;
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .section-btn:hover .menu-icon {
+        background:#E1D4C9;
+        transition: 0.5s;
+    }
+    .section-btn:hover .btn-text {
+        color: #E1D4C9;
+        transition: 0.5s;
+    }
+    
+    .menu-section-buttons {
+        display: flex;
+        justify-content: center;
+        column-gap: 16px;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        background:#C1B6AD;
+        height: 24px;
+        width: 16px;
+        padding: 3px 7px;
+        transition: 0.5s;
+    }
+    
+    .btn-text {
+    color:#403F3D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    transition: 0.5s;
+    }
+    .btn-coffee {
+        border-radius: 100px;
+        border: 0px solid #665F55;
+        background-color: #665F55;
+        padding: 8px 16px 8px 8px;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+    .coffee-text {
+        width: 53px;
+        color: #E1D4C9;
+    }
+    .coffee-icon {
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        background: #E1D4C9;
+        height: 24px;
+        width: 16px;
+        padding: 3px 7px; 
+    }
+    
+    .menu-section-coffee {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-column-gap: 10px;
+        grid-row-gap: 38px;
+    
+    }
+    .grid-coffee {
+        margin: 0px;
+        padding: 0;
+        width: 310px;
+        border-radius: 40px;
+        border: 1px solid #C1B6AD;
+    }
+    .grid-block {
+        width: 270px;
+        height: 156px;
+        padding: 20px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-betweens ;
+    }
+    .pic-coffee {
+        width: 310px;
+        height: 310px;
+        overflow: hidden;
+        border-radius: 40px;
+        object-fit: cover;
+    }
+    .grid-pic {
+        border-radius: 40px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        transform: scale(1.1);
+        transition: transform 1s;
+        object-fit: cover;
+    }
+    .grid-pic:hover {
+        height: 100%;
+        width: 100%;
+        transform: scale(1.0);
+        transition: transform 1s;
+    }
+    .grid-name {
+        color: #403F3D;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        margin-bottom: 11px;
+        height: 30px;
+    }
+    .grid-descriprion {
+        color: #403F3D;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 270px;
+    }
+    .grid-price {
+        align-self:self-start;
+        color:#403F3D;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        margin-top: auto;
+
+    }
     .mobile-app {
         margin-top: 100px;
         height: 630px;
