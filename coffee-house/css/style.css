@@ -1044,7 +1044,7 @@ text-decoration: none;
         padding-left: 40px;
    }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:767px) {
     main {
         display: flex;
         flex-direction: column;
@@ -1286,6 +1286,10 @@ text-decoration: none;
     }
     .mobile-app-description {
         width: 95%;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
     }
     .contacts__block {
         width: 83.3%;

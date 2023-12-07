@@ -808,6 +808,10 @@ html {
 .contacts {
     margin-top: 100px;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+}
 .contacts__block {
     width: 83.3%;
     height: auto;
