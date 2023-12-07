@@ -748,6 +748,7 @@ text-decoration: none;
 }
 .burger-menu {
     display: none;
+    cursor: pointer;
 }
 @media screen and (max-width:1439px) {
     
